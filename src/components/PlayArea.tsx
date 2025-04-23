@@ -10,7 +10,9 @@ type PlayAreaProps = {
 const PlayArea = ({ gameState }: PlayAreaProps) =>
   <div>
     <CardRow cards={gameState.lands} />
+    <hr />
     <CardRow cards={gameState.otherPermanents} />
+    <hr />
     <CardRow cards={gameState.creatures} />
   </div>;
 
