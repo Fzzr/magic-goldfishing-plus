@@ -1,4 +1,4 @@
-import Card from '@/components/Card';
+import CardRow from '@/components/CardRow';
 
 import { serraAngel } from '@/constants/cards';
 
@@ -6,8 +6,8 @@ export default function Home() {
   return (
     <div>
       <main>
-        <Card
-          card={serraAngel}
+        <CardRow
+          cards={[serraAngel]}
         />
       </main>
     </div>
