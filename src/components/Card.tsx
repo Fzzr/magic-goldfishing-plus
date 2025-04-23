@@ -7,7 +7,13 @@ type CardProps = {
 }
 
 const Card = ({ card }: CardProps) =>
-  <div>
+  <div style={{
+    width: '20rem',
+    border: '2px solid',
+    borderRadius: '6px',
+    margin: '3px',
+    padding: '.5rem'
+  }}>
     <p>
       {card.displayName} {card.manacost}
     </p>
