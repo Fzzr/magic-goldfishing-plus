@@ -9,7 +9,7 @@ type CardRowProps = {
 }
 
 const CardRow = ({cards}: CardRowProps) =>
-  <div>
+  <div style={{display: 'flex'}}>
     {cards.map((card, index) =>
       <Card
         key={index}
